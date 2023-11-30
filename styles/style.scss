@@ -11,6 +11,10 @@ $fontFam: 'Space Grotesk', sans-serif;
     justify-content: $justify;
     flex-direction: $direction;
 }
+@mixin widthHeight($width, $height){
+    width: $width;
+    height: $height;
+}
 
 body{
     font-family: $fontFam;
@@ -20,7 +24,7 @@ body{
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    @include flex(column, space-between, center);
+    @include flex(column, center, space-between);
 }
 .hidden{
     display: none;
