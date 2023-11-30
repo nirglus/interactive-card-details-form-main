@@ -19,4 +19,12 @@ body {
 .r-side {
   background-color: #fff;
   height: 60vh;
+}
+
+.card-back {
+  width: 80vw;
+  height: 15vh;
+  background-image: url(../images/bg-card-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
