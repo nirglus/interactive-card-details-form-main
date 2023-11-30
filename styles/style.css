@@ -7,8 +7,9 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: space-between;
+  justify-content: center;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .hidden {
@@ -17,4 +18,5 @@ body {
 
 .r-side {
   background-color: #fff;
+  height: 60vh;
 }/*# sourceMappingURL=style.css.map */
