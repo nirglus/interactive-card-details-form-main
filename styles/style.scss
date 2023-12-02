@@ -39,4 +39,12 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     transform: translate(8vw, 6vh);
+    position: relative;
+}
+#ccv{
+    position: absolute;
+    margin-left: 203px;
+    margin-top: 62px;
+    font-size: 10px;
+    color: #fff;
 }
