@@ -32,7 +32,7 @@ body {
   position: relative;
 }
 
-#ccv {
+#ccvDisplay {
   position: absolute;
   margin-left: 203px;
   margin-top: 62px;
