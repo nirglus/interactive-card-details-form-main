@@ -18,7 +18,7 @@ $fontFam: 'Space Grotesk', sans-serif;
 
 body{
     font-family: $fontFam;
-    height: 100vh;
+    @include widthHeight(100%, 100vh);
     background-image: url(../images/bg-main-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,4 +38,5 @@ body{
     background-image: url(../images/bg-card-back.png);
     background-size: contain;
     background-repeat: no-repeat;
+    transform: translate(8vw, 6vh);
 }
