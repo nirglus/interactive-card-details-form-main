@@ -50,6 +50,10 @@ body{
 }
 .card-front{
     color: #fff;
+    background-image: url(../images/bg-card-front.png);
+    @include widthHeight(80vw, 15vh);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .cardBottom{
     @include flex(row, center ,space-between);

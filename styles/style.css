@@ -42,6 +42,11 @@ body {
 
 .card-front {
   color: #fff;
+  background-image: url(../images/bg-card-front.png);
+  width: 80vw;
+  height: 15vh;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .cardBottom {
