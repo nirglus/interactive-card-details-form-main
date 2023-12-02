@@ -38,4 +38,17 @@ body {
   margin-top: 62px;
   font-size: 10px;
   color: #fff;
+}
+
+.card-front {
+  color: #fff;
+}
+
+.cardBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 10px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

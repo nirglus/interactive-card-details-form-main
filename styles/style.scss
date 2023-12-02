@@ -48,3 +48,11 @@ body{
     font-size: 10px;
     color: #fff;
 }
+.card-front{
+    color: #fff;
+}
+.cardBottom{
+    @include flex(row, center ,space-between);
+    font-size: 10px;
+    text-transform: uppercase;
+}
