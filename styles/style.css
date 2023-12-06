@@ -23,12 +23,12 @@ body {
 }
 
 .card-back {
-  width: 80vw;
-  height: 15vh;
+  width: 250px;
+  height: 138px;
   background-image: url(../images/bg-card-back.png);
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translate(8vw, 6vh);
+  transform: translate(24px, 59px);
   position: relative;
 }
 
@@ -43,8 +43,8 @@ body {
 .card-front {
   color: #fff;
   background-image: url(../images/bg-card-front.png);
-  width: 80vw;
-  height: 15vh;
+  width: 250px;
+  height: 138px;
   display: flex;
   align-items: center;
   justify-content: center;
