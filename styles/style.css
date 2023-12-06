@@ -45,8 +45,14 @@ body {
   background-image: url(../images/bg-card-front.png);
   width: 80vw;
   height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-size: contain;
   background-repeat: no-repeat;
+  position: absolute;
+  transform: translate(-25px, 138px);
 }
 
 .cardBottom {
