@@ -72,4 +72,11 @@ body {
   width: 45px;
   margin-right: 169px;
   margin-bottom: 8px;
+}
+
+.r-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

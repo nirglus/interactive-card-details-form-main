@@ -73,3 +73,6 @@ body{
         margin-bottom: 8px;
     }
 }
+.r-side{
+    @include flex(column, center, center);
+}
