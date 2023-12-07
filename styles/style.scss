@@ -30,8 +30,9 @@ body{
     display: none;
 }
 .r-side{
+    @include flex(column, center, center);
     background-color: #fff;
-    height: 60vh;
+    height: 75vh;
 }
 .card-back{
     @include widthHeight(250px, 138px);
@@ -72,7 +73,4 @@ body{
         margin-right: 169px;
         margin-bottom: 8px;
     }
-}
-.r-side{
-    @include flex(column, center, center);
 }

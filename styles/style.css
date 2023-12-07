@@ -18,8 +18,12 @@ body {
 }
 
 .r-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: #fff;
-  height: 60vh;
+  height: 75vh;
 }
 
 .card-back {
@@ -72,11 +76,4 @@ body {
   width: 45px;
   margin-right: 169px;
   margin-bottom: 8px;
-}
-
-.r-side {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
