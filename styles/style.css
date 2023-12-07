@@ -23,7 +23,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: #fff;
-  height: 75vh;
+  height: 470px;
 }
 
 .card-back {
@@ -70,6 +70,7 @@ body {
 
 #cardNumDisplay {
   margin-bottom: 0;
+  letter-spacing: 2px;
 }
 
 .logo img {
