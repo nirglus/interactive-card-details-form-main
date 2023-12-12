@@ -88,8 +88,10 @@ body {
 }
 
 input {
-  height: 30px;
-  margin: 8px 0;
+  height: 38px;
+  margin: 8px 0 18px;
+  border: 1px solid hsl(270, 3%, 87%);
+  border-radius: 9px;
 }
 
 label {
