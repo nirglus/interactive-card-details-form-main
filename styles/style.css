@@ -92,6 +92,14 @@ input {
   margin: 8px 0;
 }
 
+label {
+  text-transform: uppercase;
+  color: #430f60;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
 .dates {
   display: flex;
   flex-direction: column;
