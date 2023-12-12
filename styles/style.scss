@@ -2,6 +2,7 @@ $lightGrayish: hsl(270, 3%, 87%);
 $darkGrayish: hsl(279, 6%, 55%);
 $darkViolet: hsl(278, 68%, 11%);
 $label: #430f60;
+$placeholder: hsl(300, 3%, 73%);
 $gradient: hsl(249, 99%, 64%), hsl(278, 94%, 30%);
 $fontSize: 18px;
 $fontFam: 'Space Grotesk', sans-serif;
@@ -87,8 +88,19 @@ body{
 input{
     height: 38px;
     margin: 8px 0 18px;
-    border: 1px solid $lightGrayish;
-    border-radius: 9px;
+    border: 1px solid $placeholder;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 9px;
+    &::placeholder{
+        font-family: $fontFam;
+        color: $placeholder;
+        font-size: 16px;
+    }
+    &:active, &:focus{
+        outline: none;
+        border: 2px solid $darkViolet;
+    }
 }
 label{
     text-transform: uppercase;
