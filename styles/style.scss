@@ -29,17 +29,6 @@ body{
 .hidden{
     display: none;
 }
-.r-side{
-    @include flex(column, center, center);
-    background-color: #fff;
-    height: 470px;
-    width: 100%;
-    form{
-        display: flex;
-        flex-direction: column;
-        width: 285px;
-    }
-}
 .card-back{
     @include widthHeight(250px, 138px);
     background-image: url(../images/bg-card-back.png);
@@ -81,5 +70,16 @@ body{
         width: 45px;
         margin-right: 169px;
         margin-top: 8px;
+    }
+}
+.r-side{
+    @include flex(column, center, center);
+    background-color: #fff;
+    height: 470px;
+    width: 100%;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 285px;
     }
 }

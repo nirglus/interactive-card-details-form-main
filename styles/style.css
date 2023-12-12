@@ -17,21 +17,6 @@ body {
   display: none;
 }
 
-.r-side {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #fff;
-  height: 470px;
-  width: 100%;
-}
-.r-side form {
-  display: flex;
-  flex-direction: column;
-  width: 285px;
-}
-
 .card-back {
   width: 250px;
   height: 138px;
@@ -85,4 +70,19 @@ body {
   width: 45px;
   margin-right: 169px;
   margin-top: 8px;
+}
+
+.r-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  height: 470px;
+  width: 100%;
+}
+.r-side form {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
 }/*# sourceMappingURL=style.css.map */
