@@ -83,3 +83,20 @@ body{
         width: 285px;
     }
 }
+input{
+    height: 30px;
+}
+.dates{
+    display: flex;
+    flex-direction: column;
+}
+.dateInps{
+    display: flex;
+    justify-content: space-between;
+    input{
+        width: 55px;
+    }
+}
+#cvc{
+    width: 130px;
+}
