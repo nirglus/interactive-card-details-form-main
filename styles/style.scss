@@ -33,6 +33,12 @@ body{
     @include flex(column, center, center);
     background-color: #fff;
     height: 470px;
+    width: 100%;
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 285px;
+    }
 }
 .card-back{
     @include widthHeight(250px, 138px);

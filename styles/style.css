@@ -24,6 +24,12 @@ body {
   flex-direction: column;
   background-color: #fff;
   height: 470px;
+  width: 100%;
+}
+.r-side form {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
 }
 
 .card-back {
