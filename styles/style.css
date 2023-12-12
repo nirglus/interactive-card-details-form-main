@@ -128,9 +128,23 @@ label {
   justify-content: space-between;
 }
 .dateInps input {
-  width: 55px;
+  width: 50px;
 }
 
 #cvc {
   width: 130px;
+}
+
+#cvcLbl {
+  margin-left: 15px;
+}
+
+button {
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  background-color: hsl(278, 68%, 11%);
+  color: #fff;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
 }/*# sourceMappingURL=style.css.map */

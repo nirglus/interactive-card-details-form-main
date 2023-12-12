@@ -117,9 +117,21 @@ label{
     display: flex;
     justify-content: space-between;
     input{
-        width: 55px;
+        width: 50px;
     }
 }
 #cvc{
     width: 130px;
+}
+#cvcLbl{
+    margin-left: 15px;
+}
+button{
+    height: 48px;
+    border: 0;
+    border-radius: 8px;
+    background-color: $darkViolet;
+    color: #fff;
+    font-size: 16px;
+    font-family: $fontFam;
 }
