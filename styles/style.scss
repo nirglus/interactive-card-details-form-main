@@ -21,15 +21,12 @@ $fontFam: 'Space Grotesk', sans-serif;
 body{
     font-family: $fontFam;
     @include widthHeight(100%, 100vh);
+    @include flex(column, center, space-between);
     background-image: url(../images/bg-main-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    @include flex(column, center, space-between);
-}
-.hidden{
-    display: none;
 }
 .card-back{
     @include widthHeight(250px, 138px);
@@ -85,6 +82,24 @@ body{
         width: 285px;
     }
 }
+.complete{
+    @include flex(column, center, center);
+    width: 285px;
+    button{
+        width: 100%;
+    }
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 26px;
+        color: $label;
+        margin: 33px 0 0 0;
+    }
+    p{
+        margin-bottom: 40px;
+        color: $darkGrayish;
+    }
+}
 input{
     height: 38px;
     margin: 8px 0 18px;
@@ -131,7 +146,7 @@ button{
     border: 0;
     border-radius: 8px;
     background-color: $darkViolet;
-    color: #fff;
+    color: $lightGrayish;
     font-size: 16px;
     font-family: $fontFam;
 }
@@ -146,4 +161,7 @@ button{
 }
 #cvcErr{
     margin-right: 59px;
+}
+.hidden{
+    display: none;
 }
