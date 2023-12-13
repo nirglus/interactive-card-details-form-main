@@ -135,3 +135,15 @@ button{
     font-size: 16px;
     font-family: $fontFam;
 }
+.error{
+    color: #f00;
+    font-size: 12px;
+    margin: -12px 0 10px;
+}
+.dateErrs{
+    display: flex;
+    justify-content: space-between;
+}
+#cvcErr{
+    margin-right: 59px;
+}
