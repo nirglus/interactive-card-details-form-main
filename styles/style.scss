@@ -52,6 +52,7 @@ body{
     background-repeat: no-repeat;
     position: absolute;
     transform: translate(-25px, 137px);
+    box-shadow: 0 16px 44px -21px #949494;
 }
 .cardBottom{
     @include flex(row, center ,space-between);
