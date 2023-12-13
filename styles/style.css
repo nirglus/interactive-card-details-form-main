@@ -7,7 +7,6 @@ body {
   justify-content: space-between;
   flex-direction: column;
   background-image: url(../images/bg-main-mobile.png);
-  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;

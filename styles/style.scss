@@ -23,7 +23,6 @@ body{
     @include widthHeight(100%, 100vh);
     @include flex(column, center, space-between);
     background-image: url(../images/bg-main-mobile.png);
-    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
