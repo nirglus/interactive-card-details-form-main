@@ -23,7 +23,7 @@
   </div>
 </div>
 <div class="r-side">
-  <form class="hidden" action="">
+  <form id="cardForm" action="">
     <label for="holderName">Cardholder Name</label>
     <input type="text" id="holderName" placeholder="e.g. Jane Appleseed">
     <label for="cardNum">Card Number</label>
@@ -46,7 +46,7 @@
     </div>
     <button id="confirm" type="submit">Confirm</button>
   </form>
-  <div class="complete hidden">
+  <div class="complete hidden" id="completeSection">
     <img src="./images/icon-complete.svg" alt="complete-img">
     <h1>Thank you!</h1>
     <p>We've added your card details</p>

@@ -1,6 +1,9 @@
 const confirmBtn = document.getElementById("confirm");
 const continueBtn = document.getElementById("complete");
 
+const cardForm = document.getElementById("cardForm");
+const completeDisp = document.getElementById("completeSection");
+
 document.addEventListener("input", () =>{
     const holderNameInp = document.getElementById("holderName");
     const cardNumInp = document.getElementById("cardNum");
@@ -21,4 +24,10 @@ document.addEventListener("input", () =>{
     cvcDisp.innerHTML = cvcInp.value.length == 0 ? '000' : cvcInp.value;
     expDateMDisp.innerHTML = expDateMInp.value == 0 ? '00' : expDateMInp.value;
     expDateYDisp.innerHTML = expDateYInp.value == 0 ? '00' : expDateYInp.value;
-})
+});
+
+cardForm.addEventListener("submit", (event)=>{
+    event.preventDefault();
+    cardForm.classList.add("hidden");
+    completeDisp.classList.remove("hidden");
+});
