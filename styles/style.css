@@ -184,4 +184,11 @@ button {
 
 .hidden {
   display: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../images/bg-main-desktop.png);
+    background-size: cover;
+  }
 }/*# sourceMappingURL=style.css.map */
