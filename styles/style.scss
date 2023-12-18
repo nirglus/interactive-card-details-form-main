@@ -175,4 +175,21 @@ button{
         height: 100vh;
         width: 72vw;
     }
+    .card-front{
+        transform: translate(223px, -140px);
+        @include widthHeight(338px, 182px);
+        box-shadow: unset;
+    }
+    .card-back{
+        @include widthHeight(338px, 182px);
+        transform: translate(275px, 70px);
+    }
+    .cardBottom{
+        width: 280px;
+    }
+    .logo img{
+        width: 70px;
+        margin-right: 225px;
+        margin-top: 3px;
+    }
 }
