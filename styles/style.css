@@ -190,5 +190,10 @@ button {
   body {
     background-image: url(../images/bg-main-desktop.png);
     background-size: cover;
+    flex-direction: row;
+  }
+  .r-side {
+    height: 100vh;
+    width: 72vw;
   }
 }/*# sourceMappingURL=style.css.map */
