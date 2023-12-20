@@ -41,3 +41,8 @@ cardForm.addEventListener("submit", (event)=>{
     completeDisp.classList.remove("hidden");
 });
 
+continueBtn.addEventListener("click", ()=>{
+    completeDisp.classList.add("hidden");
+    cardForm.style.display = "flex";
+    resetInps();
+});
