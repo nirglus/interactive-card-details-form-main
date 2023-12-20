@@ -1,21 +1,30 @@
+const holderNameInp = document.getElementById("holderName");
+const cardNumInp = document.getElementById("cardNum");
+const expDateMInp = document.getElementById("expDateM");
+const expDateYInp = document.getElementById("expDateY");
+const cvcInp = document.getElementById("cvc");
+const cvcDisp = document.getElementById("cvcDisplay");
+const cardNumDisp = document.getElementById("cardNumDisplay");
+const holderNameDisp = document.getElementById("cardHoldName");
+const expDateMDisp = document.getElementById("mmDisplay");
+const expDateYDisp = document.getElementById("yyDisplay");
 const confirmBtn = document.getElementById("confirm");
 const continueBtn = document.getElementById("complete");
 
 const cardForm = document.getElementById("cardForm");
 const completeDisp = document.getElementById("completeSection");
 
-document.addEventListener("input", () =>{
-    const holderNameInp = document.getElementById("holderName");
-    const cardNumInp = document.getElementById("cardNum");
-    const expDateMInp = document.getElementById("expDateM");
-    const expDateYInp = document.getElementById("expDateY");
-    const cvcInp = document.getElementById("cvc");
-    const cvcDisp = document.getElementById("cvcDisplay");
-    const cardNumDisp = document.getElementById("cardNumDisplay");
-    const holderNameDisp = document.getElementById("cardHoldName");
-    const expDateMDisp = document.getElementById("mmDisplay");
-    const expDateYDisp = document.getElementById("yyDisplay");
+function resetInps(){
+    let formInputs = document.querySelectorAll("input");
+    formInputs.forEach(inp => inp.value = '');
+    cvcDisp.innerHTML = '000';
+    cardNumDisp.innerHTML = '0000 0000 0000 0000';
+    holderNameDisp.innerHTML = 'Jane Appleseed';
+    expDateMDisp.innerHTML = '00';
+    expDateYDisp.innerHTML = '00';
+}
 
+document.addEventListener("input", () =>{
     holderNameDisp.innerHTML = holderNameInp.value.length == 0 ? 'Jane Appleseed' : holderNameInp.value;
     cardNumDisp.innerHTML = 
     cardNumInp.value.length == 0 ? '0000 0000 0000 0000' :
@@ -28,6 +37,7 @@ document.addEventListener("input", () =>{
 
 cardForm.addEventListener("submit", (event)=>{
     event.preventDefault();
-    cardForm.classList.add("hidden");
+    cardForm.style.display = "none";
     completeDisp.classList.remove("hidden");
 });
+
