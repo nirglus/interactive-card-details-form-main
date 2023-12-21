@@ -1,6 +1,6 @@
 body {
   font-family: "Space Grotesk", sans-serif;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   background-image: url(../images/bg-main-mobile.png);
   background-repeat: no-repeat;
+  background-size: contain;
   margin: 0;
   padding: 0;
 }
