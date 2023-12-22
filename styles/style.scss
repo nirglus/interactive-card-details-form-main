@@ -166,7 +166,7 @@ button{
 .hidden{
     display: none;
 }
-@media (min-width: 768px){
+@media (min-width: 769px){
     body{
         background-image: url(../images/bg-main-desktop.png);
         background-size: cover;
@@ -196,5 +196,21 @@ button{
     #cvcDisplay{
         margin-left: 271px;
         margin-top: 83px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .card-front{
+        transform: translate(24px, -140px);
+    }
+    .card-back{
+        transform: translate(90px, 70px);
+    }
+}
+@media (min-width: 1025px) and (max-width: 1250px){
+    .card-front{
+        transform: translate(74px, -140px);
+    }
+    .card-back{
+        transform: translate(153px, 70px);
     }
 }
