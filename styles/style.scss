@@ -60,10 +60,15 @@ body{
     text-transform: uppercase;
     width: 215px;
     letter-spacing: 1px;
+    color: $lightGrayish;
 }
 #cardNumDisplay{
     margin-bottom: 0;
     letter-spacing: 2px;
+    color: $lightGrayish;
+}
+.cardBottom{
+    font-size: 10px;
 }
 .logo{
     img{
@@ -180,6 +185,9 @@ button{
         transform: translate(223px, -140px);
         @include widthHeight(338px, 182px);
         box-shadow: unset;
+    }
+    #cardNumDisplay{
+        font-size: 22px;
     }
     .card-back{
         @include widthHeight(338px, 182px);

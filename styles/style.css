@@ -56,11 +56,17 @@ body {
   text-transform: uppercase;
   width: 215px;
   letter-spacing: 1px;
+  color: hsl(270, 3%, 87%);
 }
 
 #cardNumDisplay {
   margin-bottom: 0;
   letter-spacing: 2px;
+  color: hsl(270, 3%, 87%);
+}
+
+.cardBottom {
+  font-size: 10px;
 }
 
 .logo img {
@@ -202,6 +208,9 @@ button {
     width: 338px;
     height: 182px;
     box-shadow: unset;
+  }
+  #cardNumDisplay {
+    font-size: 22px;
   }
   .card-back {
     width: 338px;
