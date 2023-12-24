@@ -173,6 +173,9 @@ button {
   font-size: 16px;
   font-family: "Space Grotesk", sans-serif;
 }
+button:hover {
+  cursor: pointer;
+}
 
 .error {
   color: #f00;
