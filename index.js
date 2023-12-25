@@ -30,10 +30,13 @@ function validateCardNumber(){
     return /^\d+$/.test(cardNumber);
 }
 function validateMonthExp(){
-    return expDateMInp.value.length == 2;
+    return expDateMInp.value.length == 2 && expDateMInp.value < 13;
 }
 function validateYearExp(){
     return expDateYInp.value.length == 2;
+}
+function validateCvc(){
+    return cvcInp.value.length == 3;
 }
 
 document.addEventListener("input", (event) =>{
