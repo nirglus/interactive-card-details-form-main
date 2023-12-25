@@ -29,7 +29,12 @@ function validateCardNumber(){
     const cardNumber = cardNumInp.value.trim().replace(/\s/g, '');
     return /^\d+$/.test(cardNumber);
 }
-
+function validateMonthExp(){
+    return expDateMInp.value.length == 2;
+}
+function validateYearExp(){
+    return expDateYInp.value.length == 2;
+}
 
 document.addEventListener("input", (event) =>{
     holderNameDisp.innerHTML = holderNameInp.value.length == 0 ? 'Jane Appleseed' : holderNameInp.value;
