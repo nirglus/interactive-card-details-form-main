@@ -25,6 +25,11 @@ function resetInps(){
     expDateYDisp.innerHTML = '00';
 }
 
+function validateCardNumber(){
+    const cardNumber = cardNumInp.value.trim().replace(/\s/g, '');
+    return /^\d+$/.test(cardNumber);
+}
+
 document.addEventListener("input", () =>{
     holderNameDisp.innerHTML = holderNameInp.value.length == 0 ? 'Jane Appleseed' : holderNameInp.value;
     cardNumDisp.innerHTML = 
