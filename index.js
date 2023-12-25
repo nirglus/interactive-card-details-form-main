@@ -30,7 +30,8 @@ function validateCardNumber(){
     return /^\d+$/.test(cardNumber);
 }
 
-document.addEventListener("input", () =>{
+
+document.addEventListener("input", (event) =>{
     holderNameDisp.innerHTML = holderNameInp.value.length == 0 ? 'Jane Appleseed' : holderNameInp.value;
     cardNumDisp.innerHTML = 
     cardNumInp.value.length == 0 ? '0000 0000 0000 0000' :
@@ -39,6 +40,13 @@ document.addEventListener("input", () =>{
     cvcDisp.innerHTML = cvcInp.value.length == 0 ? '000' : cvcInp.value;
     expDateMDisp.innerHTML = expDateMInp.value == 0 ? '00' : expDateMInp.value;
     expDateYDisp.innerHTML = expDateYInp.value == 0 ? '00' : expDateYInp.value;
+    if (event.target === cardNumInp) {
+        cardNumInp.addEventListener('keydown', (e) => {
+          if (e.key === ' ') {
+            e.preventDefault();
+          }
+        });
+      }
 });
 
 cardForm.addEventListener("submit", (event)=>{
